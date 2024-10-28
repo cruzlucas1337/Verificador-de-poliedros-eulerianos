@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Poliedros Eulerianos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #2C3E50; }
+        section { margin-bottom: 20px; }
+        footer { margin-top: 20px; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin-right: 10px; }
+        nav ul li a { text-decoration: none; color: #3498DB; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Poliedros Eulerianos</h1>
+        <nav>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#formula">Fórmula de Euler</a></li>
+                <li><a href="#como-resolver">Como Resolver</a></li>
+                <li><a href="#exemplos">Exemplos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introducao">
+        <h2>Introdução</h2>
+        <p>Os poliedros eulerianos são formas tridimensionais que seguem a fórmula de Euler. Esta fórmula relaciona o número de vértices, arestas e faces de um poliedro convexo.</p>
+    </section>
+
+    <section id="formula">
+        <h2>Fórmula de Euler</h2>
+        <p>A fórmula de Euler é:</p>
+        <p><strong>V - E + F = 2</strong></p>
+        <p>Onde:</p>
+        <ul>
+            <li><strong>V</strong>: Número de vértices</li>
+            <li><strong>E</strong>: Número de arestas</li>
+            <li><strong>F</strong>: Número de faces</li>
+        </ul>
+    </section>
+
+    <section id="como-resolver">
+        <h2>Como Resolver</h2>
+        <p>Para verificar se um poliedro é euleriano, siga os passos abaixo:</p>
+        <ol>
+            <li><strong>Identifique o Poliedro</strong>: Escolha um poliedro específico (ex.: cubo).</li>
+            <li><strong>Conte os Vértices (V)</strong>: Quantos vértices existem no poliedro?</li>
+            <li><strong>Conte as Arestas (E)</strong>: Quantas arestas estão presentes?</li>
+            <li><strong>Conte as Faces (F)</strong>: Quantas faces o poliedro tem?</li>
+            <li><strong>Substitua na Fórmula</strong>: Insira os valores na fórmula: <strong>V - E + F = 2</strong>.</li>
+            <li><strong>Verifique a Equação</strong>: O resultado deve ser igual a 2.</li>
+        </ol>
+    </section>
+
+    <section id="exemplos">
+        <h2>Exemplos</h2>
+        <h3>Exemplo do Cubo:</h3>
+        <ul>
+            <li>Vértices (V): 8</li>
+            <li>Arestas (E): 12</li>
+            <li>Faces (F): 6</li>
+        </ul>
+        <p>Verificação: 8 - 12 + 6 = 2 (verdadeiro)</p>
+
+        <h3>Exemplo do Tetraedro:</h3>
+        <ul>
+            <li>Vértices (V): 4</li>
+            <li>Arestas (E): 6</li>
+            <li>Faces (F): 4</li>
+        </ul>
+        <p>Verificação: 4 - 6 + 4 = 2 (verdadeiro)</p>
+    </section>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@poliedro.com</p>
+    </footer>
+</body>
+</html>
